@@ -95,7 +95,7 @@ class FluidSynthSequencer(Sequencer):
         if hasattr(self, 'wav'):
             samples = fs.raw_audio_string(self.fs.get_samples(
                 int(seconds * 44100)))
-            self.wav.writeframes(''.join(samples))
+            self.wav.writeframes(samples)
         else:
             time.sleep(seconds)
 
