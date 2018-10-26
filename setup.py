@@ -5,7 +5,7 @@ except ImportError:
 
 
 setup(name= "mingus",
-      version = "0.5.2",
+      version = "0.6.0",
       description = "mingus is a music package for Python",
 
       long_description = 
@@ -25,7 +25,7 @@ http://mingus.googlecode.com
 
       author = "Bart Spaans",
       author_email = "bart.spaans@gmail.com",
-      url = "http://github.com/bspaans/python-mingus",
+      url = "https://github.com/BuildingRobotics/python-mingus/tree/python3",
       packages = ['mingus', 'mingus.core', 'mingus.containers', 'mingus.extra', 'mingus.midi'],
       data_files = [('mingus_examples/pygame-drum', ['mingus_examples/pygame-drum/pad.png',\
                          'mingus_examples/pygame-drum/pygame-drum.py']),\
